@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #FFEBDC;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.override-bg {
+  background-color: #FFEBDC;
+}
+
+@layer components {
+  .align {
+    @apply mx-auto lg:max-w-5xl 2xl:max-w-7xl px-7;
+  }
+
+  .button {
+    @apply px-5 py-3 rounded-full bg-amber-900 text-white font-semibold tracking-wide;
+  }
+}
