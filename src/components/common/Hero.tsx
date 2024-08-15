@@ -13,7 +13,7 @@ const Hero: React.FC = () => {
           <div className='tracking-wide text-xs md:text-base'>We are passionate about nurturing the next generation of designers. Our community is dedicated to providing junior designers in tech with the resources, mentorship, and opportunities they need to thrive.</div>
           <button className='button w-fit'>Become a Member</button>
         </div>
-        <img src={hero} alt="hero image" className='rounded-full h-fit w-full' />
+        <img src={hero} alt="hero image" className='rounded-full h-full w-full' />
       </div>
     </div>
   )
